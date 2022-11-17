@@ -1,0 +1,23 @@
+{
+	"name": "recipe-api",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/app",
+	"extensions": [
+		"ms-azuretools.vscode-docker",
+		"waderyan.gitblame",
+		"mhutchie.git-graph",
+		"shardulm94.trailing-spaces",
+		"ms-python.python"
+	],
+	"settings": {
+		"python.formatting.provider": "black",
+		"python.formatting.blackPath": "/usr/local/bin/black",
+		"[python]": {
+			"editor.formatOnSave": true
+		}
+	}
+}
